@@ -1,8 +1,14 @@
-* {
+
+body {
     padding: 0;
     margin: 0;
 }
-
+#map-id,
+body,
+html {
+    height: 100%;
+    background-color: white;
+}
 #map,
 body,
 html {

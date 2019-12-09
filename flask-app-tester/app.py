@@ -53,13 +53,13 @@ def hosts():
     for name, neighbourhood_group, neighbourhood, latitude, longitude, room_type, price, minimum_nights, availability_365 in results:
         airbnb_dict = {}
         airbnb_dict["name"] = name
-        airbnb_dict["neighbourhood group"] = neighbourhood_group
+        airbnb_dict["neighbourhood_group"] = neighbourhood_group
         airbnb_dict["neighbourhood"] = neighbourhood
         airbnb_dict["latitude"] = latitude
         airbnb_dict["longitude"] = longitude
-        airbnb_dict["room type"] = room_type
+        airbnb_dict["room_type"] = room_type
         airbnb_dict["price"] = price
-        airbnb_dict["minimum nights"] = minimum_nights
+        airbnb_dict["minimum_nights"] = minimum_nights
         airbnb_dict["availability"] = availability_365
         all_airbnbs.append(airbnb_dict)
 

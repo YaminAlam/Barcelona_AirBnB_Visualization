@@ -1,4 +1,4 @@
-# Project 2 Write Up
+# Barcelona AirBnB Visualization
 
 For our project, we used Airbnb to create an interactive map to explore the residences offered by the city of Barcelona, Spain. We retrieved our data from the following site: http://insideairbnb.com/get-the-data.html. We primarily approached our visualizations from a geographic perspective. 
 
